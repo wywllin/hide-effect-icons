@@ -5,5 +5,7 @@
   "hide_effect_icons.configuration.hide_effect_icons": "隐藏 HUD 药水图标",
   "hide_effect_icons.configuration.hide_effect_icons.tooltip": "开启后隐藏游戏 HUD 右上角的药水/状态效果图标，不影响物品栏旁边的效果列表。",
   "hide_effect_icons.configuration.hide_own_effect_particles": "隐藏自身药水粒子",
-  "hide_effect_icons.configuration.hide_own_effect_particles.tooltip": "开启后隐藏自己身上由药水/状态效果产生的粒子，不影响其他玩家或世界中的普通粒子。"
+  "hide_effect_icons.configuration.hide_own_effect_particles.tooltip": "开启后隐藏自己身上由药水/状态效果产生的粒子，不影响其他玩家或世界中的普通粒子。",
+  "hide_effect_icons.configuration.hide_fire_overlay": "隐藏火焰叠加效果",
+  "hide_effect_icons.configuration.hide_fire_overlay.tooltip": "开启后隐藏角色着火时屏幕上显示的火焰叠加效果。"
 }

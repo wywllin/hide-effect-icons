@@ -17,4 +17,11 @@ public abstract class GuiMixin {
             callbackInfo.cancel();
         }
     }
+
+    @Inject(method = "renderFireOverlay", at = @At("HEAD"), cancellable = true)
+    private void hideEffectIcons$hideFireOverlay(GuiGraphics guiGraphics, DeltaTracker deltaTracker, CallbackInfo callbackInfo) {
+        if (ClientConfig.hideFireOverlay()) {
+            callbackInfo.cancel();
+        }
+    }
 }
