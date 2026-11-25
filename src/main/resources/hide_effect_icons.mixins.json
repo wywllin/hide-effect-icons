@@ -8,7 +8,9 @@
     "LivingEntityMixin",
     "ScreenEffectRendererMixin",
     "IClientMobEffectExtensionsMixin",
-    "MobEffectInstanceMixin"
+    "MobEffectInstanceMixin",
+    "LightningBoltRendererMixin",
+    "ClientLevelMixin"
   ],
   "injectors": {
     "defaultRequire": 1

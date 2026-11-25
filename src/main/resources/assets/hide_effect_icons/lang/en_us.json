@@ -1,0 +1,17 @@
+{
+  "hide_effect_icons.configuration.title": "%s Configuration",
+  "hide_effect_icons.configuration.section.hide.effect.icons.client.toml": "Client Configuration",
+  "hide_effect_icons.configuration.section.hide.effect.icons.client.toml.title": "%s Client Configuration",
+  "hide_effect_icons.configuration.hide_effect_icons": "Hide HUD Effect Icons",
+  "hide_effect_icons.configuration.hide_effect_icons.tooltip": "Hides potion/status effect icons in the top-right HUD without hiding the inventory-side effect list.",
+  "hide_effect_icons.configuration.hide_own_effect_particles": "Hide Own Effect Particles",
+  "hide_effect_icons.configuration.hide_own_effect_particles.tooltip": "Hides potion/status effect particles emitted by your own player without affecting other players or normal world particles.",
+  "hide_effect_icons.configuration.hide_first_person_fire": "Hide First-Person Fire",
+  "hide_effect_icons.configuration.hide_first_person_fire.tooltip": "Hides the first-person fire overlay while burning without extinguishing the player or changing fire damage.",
+  "hide_effect_icons.configuration.hide_lightning_bolt": "Hide Lightning Bolt Effect",
+  "hide_effect_icons.configuration.hide_lightning_bolt.tooltip": "Hides the visual rendering of lightning bolt entities without affecting lightning damage, fire ignition, or lightning rods.",
+  "hide_effect_icons.configuration.hide_lightning_sky_flash": "Hide Lightning Sky Flash",
+  "hide_effect_icons.configuration.hide_lightning_sky_flash.tooltip": "Hides lightning-triggered sky/fog whiteout flash and world lightmap flash without modifying vanilla accessibility options.",
+  "hide_effect_icons.configuration.mute_lightning_sound": "Mute Lightning Sound",
+  "hide_effect_icons.configuration.mute_lightning_sound.tooltip": "Mutes client-side thunder and lightning impact sounds without affecting rain or other weather sounds."
+}
