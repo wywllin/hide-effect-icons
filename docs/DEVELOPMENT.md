@@ -42,7 +42,7 @@
 构建产物：
 
 ```text
-build/libs/hide_effect_icons-1.0.0.jar
+build/libs/hide_effect_icons-1.2.0.jar
 ```
 
 ## 项目结构
@@ -359,7 +359,7 @@ mute_lightning_sound = false
 交付新 jar 前建议检查：
 
 - `.\gradlew.bat clean build` 构建成功。
-- `build/libs/hide_effect_icons-1.0.0.jar` 存在。
+- `build/libs/hide_effect_icons-1.2.0.jar` 存在。
 - `hide_effect_icons.mixins.json` 只包含当前需要启用的 mixin。
 - `zh_cn.json` 和 `en_us.json` 均为合法 UTF-8 JSON。
 - 游戏内测试：
@@ -378,7 +378,7 @@ mute_lightning_sound = false
 .\gradlew.bat clean build
 Get-Content src\main\resources\assets\hide_effect_icons\lang\zh_cn.json -Encoding UTF8 | ConvertFrom-Json | Out-Null
 Get-Content src\main\resources\assets\hide_effect_icons\lang\en_us.json -Encoding UTF8 | ConvertFrom-Json | Out-Null
-& 'C:\Program Files\Java\jdk-21.0.10\bin\jar.exe' tf build\libs\hide_effect_icons-1.0.0.jar
+& 'C:\Program Files\Java\jdk-21.0.10\bin\jar.exe' tf build\libs\hide_effect_icons-1.2.0.jar
 ```
 
 ## 升级 Minecraft 或 NeoForge 时的注意事项
@@ -410,7 +410,7 @@ build/moddev/artifacts/*-sources.jar
 当前项目已经可以直接构建。最终 jar 仍输出到：
 
 ```text
-build/libs/hide_effect_icons-1.0.0.jar
+build/libs/hide_effect_icons-1.2.0.jar
 ```
 
 本仓库中的 `.gradle/`、`.gradle-dist/`、`build/` 是本地构建相关目录；接手开发时可以保留，也可以删除后重新构建生成。
